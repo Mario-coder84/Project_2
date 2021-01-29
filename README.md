@@ -1,4 +1,4 @@
-# Project_2
+# Reservia
 Openclassrooms Project 2 Turn Mock-ups Into a Web Page. A prototype of a vacation planning tool that allows users to find accommodations and activities in the city of their choice.
 Accommodations can also be filtered by theme, for example, their budget or their atmosphere. The first step is to integrate the responsive mock-up in HTML and CSS.
 
