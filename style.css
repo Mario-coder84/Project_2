@@ -1,0 +1,26 @@
+a{
+    font-weight: 200;
+    font-family: Raleway;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px;  
+}
+a:hover {
+    color:#0065FC 
+}
+ul{
+    float: right;
+    margin: 0 15px 15px 0;
+}
+h2 {
+    font-family: Raleway;
+    color: #000000;
+}
+p {
+    font-weight: normal;
+    font-family: Raleway;
+    color: #000000;
+}
+
+
+
