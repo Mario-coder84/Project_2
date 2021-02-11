@@ -5,18 +5,30 @@ header {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-header  .logo {
+
+.wrapper-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: unset;
+    position: relative;
+    width: 100%;
+}
+.wrapper-nav  .logo {
     width: 150px;
     height: 50px;    
 }
-.hlns {
+.wrapper-nav .main-nav {
+    width: 400px;
+    height: auto;
+    margin: 0;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    
 }
 nav ul {
     display: flex;
-    flex-direction: row;
+    justify-content: left;
+    align-items: center;
     list-style-type: none !important;
 }
 nav a{   
@@ -30,16 +42,20 @@ nav a:hover {
     color:#0065FC 
 }
 
-.hola {
+.wrapper-nav .sign-up {
     font-size: large;
     font-family: Raleway;
     Text-decoration: none;
     color: #0065FC;
     padding: 10px; 
     margin-left: 70px; 
+    position: absolute;
+    top: 3px;
+    right:0;
 }
 section {
-display:flex
+    display:flex;
+    flex-direction: column;
 }
 section .main-paragraph h2 {
     font-family: Raleway;
@@ -52,45 +68,117 @@ section .main-paragraph p {
     color: #000000;
     padding-left: 20px;
 }
-@media all and (max-width: 768px) {
-    body {
-        min-width: 300px;
+.wrapper-search {
+    width: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 20px 20px 20px;
 }
-.hlns {
-display: block;
-margin: 30px auto;
+.wrapper-search .icon-search {
+    padding: 12px;
+    background-color: #f4f4f4;
+    border-radius: 50% 0 0 50%;
 }
-
+.wrapper-search #search {
+    padding: 12px;
+    border-color: #f4f4f4;
+    border-style: double; 
+    font-family: Raleway;   
+    font-weight: bold;
 }
-#search {
-    height: 52px;
-    width: 200px;
-    color: #000000;
-    font-family: Raleway;
-    font-size: small; 
-    text-align: center;
-    font-weight: bolder;
+button {
+    width: 70px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #0065FC;
+    border: 20px;
     border-radius: 15px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    padding-right: 0px;    
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 15px;
+    font-family:raleway;
+    border:2px;
+}  
+.wrapper-filters{
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+    align-items: center;
+}    
+.wrapper-filters h3 {
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    font-family:raleway;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icon-filter {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 12px 12px 12px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 3px solid #DEEBFF;
+    border-radius: 80px;
+}
+.wrapper-filters .filter-text{
+    display: flex;
+    flex-direction:row;
+    padding: 10px 20px 10px 20px;
+    font-family: Raleway;
+    font-weight: bold;
+    border: 2px solid #f4f4f4;
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 20px;
+    margin-left: -15px;
+}
+.icon-filter:hover{
+    color:#f4f4f4;
+    background-color: #0065FC;
+}
+.wrapper-filters .filter-text:hover{
+    font-weight: lighter;  
+    color: #0065fc;
+    text-transform: uppercase;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.information-icon{
+    display: flex;
+    flex-direction: row;
+    padding: 7px 12px 7px 12px;
+    color: #0065fc;
+    border: 2px solid #f4f4f4;
+    border-radius: 50px;
+    margin: 20px;
+}
+.information p{
+    font-family: Raleway;
 }
 
-button{
-width: 70px;
-height: 50px;
-color: #ffffff;
-background-color: #0065FC;
-border: 20px;
-border-radius: 15px;
-border-top-left-radius: 0px;
-border-bottom-left-radius: 0px;
-font-size: 15px;    
-font-family: raleway;
-border: 2px;
-border-left-style: none;
-padding-right: 15px;
-margin-left: -10px;
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
 }
-
-
