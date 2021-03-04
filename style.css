@@ -5,7 +5,14 @@ header {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper-content {
+    width: 100%;
+}
 .wrapper-nav {
     display: flex;
     justify-content: space-between;
@@ -15,7 +22,8 @@ header {
 }
 .wrapper-nav  .logo {
     width: 150px;
-    height: 50px;    
+    height: 50px;
+    margin-left: 10px;    
 }
 .wrapper-nav .main-nav {
     width: 400px;
@@ -23,6 +31,7 @@ header {
     margin: 0;
     display: flex;
     align-items: center;
+    margin-right: 74px;
     
 }
 nav ul {
@@ -32,7 +41,7 @@ nav ul {
     list-style-type: none !important;
 }
 nav a{   
-    padding: 0 15px 0px 15px;
+    padding: 0 57px 0px 0px;
     font-weight: 200;
     font-family: Raleway;
     text-decoration: none;
@@ -52,6 +61,7 @@ nav a:hover {
     position: absolute;
     top: 3px;
     right:0;
+    margin-right: 41px;
 }
 section {
     display:flex;
@@ -60,43 +70,45 @@ section {
 section .main-paragraph h2 {
     font-family: Raleway;
     color: #000000;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 section .main-paragraph p {
     font-weight: large;
     font-family: Raleway;
     color: #000000;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 .wrapper-search {
-    width: 600px;
+    width: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 15px 20px 20px 20px;
+    padding: 15px 20px 20px 34px;
 }
 .wrapper-search .icon-search {
-    padding: 12px;
+    padding: 23px;
+    font-size: large;
     background-color: #f4f4f4;
-    border-radius: 50% 0 0 50%;
+    border-radius: 20px 0 0 20px;
 }
 .wrapper-search #search {
-    padding: 12px;
+    padding: 19px;
     border-color: #f4f4f4;
     border-style: double; 
     font-family: Raleway;   
     font-weight: bold;
+    font-size: large;
 }
 button {
-    width: 70px;
-    height: 40px;
+    width: 92px;
+    height: 62px;
     color: #ffffff;
     background-color: #0065FC;
     border: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    font-size: 15px;
+    font-size: 18px;
     font-family:raleway;
     border:2px;
 }  
@@ -105,6 +117,8 @@ button {
     flex-direction: row; 
     justify-content: left;
     align-items: center;
+    padding-left: 26px;
+    width:100%;
 }    
 .wrapper-filters h3 {
     display:flex;
@@ -118,16 +132,17 @@ button {
 .icon-filter {
     display: flex;
     flex-direction: row;
-    padding: 12px 12px 12px 12px;
+    padding: 14px 14px 14px 14px;
     color: #0065FC;
     background-color: #DEEBFF;
     border: 3px solid #DEEBFF;
     border-radius: 80px;
+    font-size: 20px;
 }
 .wrapper-filters .filter-text{
     display: flex;
     flex-direction:row;
-    padding: 10px 20px 10px 20px;
+    padding: 13px 33px 13px 32px;
     font-family: Raleway;
     font-weight: bold;
     border: 2px solid #f4f4f4;
@@ -151,6 +166,8 @@ button {
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    padding-left: 26px;
+    width: 100%;
 }
 .information-icon{
     display: flex;
@@ -169,16 +186,16 @@ article {
 }
 .wrapper-accommodations{
     display: flex;
-    align-content: center;
-    justify-content: space-around;
+    align-content: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     background-color: #f4f4f4;
-    width: 900px;
-    margin-left: 20px;
+    margin-left: 31px;
     margin-right: 20px;
     padding-left: 40px;
     padding-right: 20px;
     border-radius: 20px;
+    height: 740px;
 }
 .wrapper-accommodations-title{
     display:flex;
@@ -189,6 +206,12 @@ article {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 20px;
+}
+.wrapper-accommodations .wrapper-cards-left {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .wrapper-accommodations .card {
     display: flex;
@@ -201,6 +224,7 @@ article {
     border-radius: 20px;
     margin-right: 15px;
     margin-bottom: 30px;
+   
 }
 .wrapper-accommodations .card .wrapper-hotel-img {
     width: 250px;
@@ -261,6 +285,10 @@ article {
 .wrapper-accommodations .card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3;
 }
+.links{
+    color: black;
+    text-decoration: none;
+}
 .wrapper-dropdown-menu{
     display: flex;
     width: 100%;
@@ -272,33 +300,39 @@ article {
 } 
 .wrapper-most-popular {
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
+    flex-direction:column;
+    align-content: center;
+    justify-content: space-between;
     background-color: #f4f4f4;
-    width: 387px;
     border-radius: 20px;
-    margin-left: 20px;
+    margin-left: 11px;
+    height: 740px; 
 }
 .wrapper-mini-header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 7px;
-    width: 350px;
     height: 100px;
-    margin-bottom: -34px;
+    flex-wrap: wrap;
 }
 .most-popular-title h2 {
     font-family: raleway;
     padding-top: 15px; 
-    padding-right: 98px; 
+    
 }
 .icon-most-popular {
-    height:200px;
+    height:100px;
     padding-top :40px;
-    padding-right: 10px;
     font-size: 20px;
-    margin-right: -45px;
+}
+.wrapper-most-popular .wrapper-cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    height: 700px;
+    padding: 0 20px 0 20px;
+    align-items: center;
 }
 .wrapper-most-popular .card {
     display: flex;
@@ -310,9 +344,37 @@ article {
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;
     border-radius: 20px;
-    margin-left: 29px; 
-    padding: 3px;  
-    margin-top: -46px;
+    margin-left: 2px; 
+    padding: 2px;  
+    justify-content: space-between;
+}
+.wrapper-most-popular .card-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 133px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #c4c3c3;
+    transition: 0.3s;
+    border-radius: 20px;
+    margin-left: 7px; 
+    padding: 2px;  
+    
+}
+.wrapper-most-popular .card-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 133px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #c4c3c3;
+    transition: 0.3s;
+    border-radius: 20px;
+    margin-left: 7px; 
+    padding: 2px;  
+    
 }
 .wrapper-most-popular  .wrapper-hotel-image{
     width:100%;
@@ -338,6 +400,9 @@ article {
     border-bottom-right-radius: 20px;
     margin-left: -37px;
 } 
+.most-popular-title {
+    height: 100px;
+}
 .wrapper-most-popular h4 {
     font-family: raleway;
     padding-left: 14px;
@@ -349,14 +414,11 @@ article {
     font-size: 14px;
     padding-left: 14px;
     padding-bottom:30px;
-
 }
 .wrapper-most-popular .icon-stars-1 {
     padding-left: 14px;
     color: #0065FC;
     font-size: x-small;
-    padding-bottom: 51px;
-    margin-bottom: 20px;
 }
 #first-group-stars {
     margin-top: -20px;
@@ -373,13 +435,26 @@ article {
 .wrapper-most-popular .card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3;
 }
+.wrapper-most-popular .card-2:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3;
+}
+.wrapper-most-popular .card-3:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3;
+}        
+.wrapper-most-popular .links-2{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
 .wrapper-activities{
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 31px;
+    width:100%;
+    padding-left: 5px;
+    padding-bottom: 50px;
 }
 .activities-header {
    display:flex; 
@@ -389,9 +464,9 @@ article {
 .activities-header h2 {
     width: 100%;
     font-family: raleway;
-    margin-left: -11px;
     padding-top: 45px;
     padding-bottom: 15px;
+    padding-left: 34px;
 }
 .wrapper-activities #Big-activity.card {
     display: flex;
@@ -400,8 +475,7 @@ article {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;
-    margin-left: -42px;
-}
+}  
 .wrapper-activities #Big-activity.card .wrapper-activities-img {
     width: 300px;
     height: 376px;
@@ -424,7 +498,9 @@ article {
 }
 
 .container-2 {
-    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .wrapper-activities #medium-activity.card {
@@ -435,9 +511,7 @@ article {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #c4c3c3;
-    transition: 0.3s;
-    margin-bottom: 50px;
-    
+    transition: 0.3s;    
 }
 .wrapper-activities #medium-activity.card .wrapper-activities-img-2 {
     width: 291px;
@@ -480,7 +554,6 @@ article {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;
-    margin-left: -10px;
 }
 .wrapper-activities #Big-activity-2.card .wrapper-activities-img {
     width: 300px;
@@ -498,7 +571,9 @@ article {
     height: 52px;
 }
 .container-3{
-    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .wrapper-activities #medium-activity-4.card {
     display: flex;
@@ -508,8 +583,7 @@ article {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #c4c3c3;
-    transition: 0.3s;
-    margin-bottom: 50px;  
+    transition: 0.3s;  
 }
 .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 {
     width: 291px;
@@ -545,6 +619,24 @@ article {
     background-color: #ffffff;
     border-radius: 20px; 
 }
+.wrapper-activities #Big-activity.card:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3;
+} 
+.wrapper-activities #medium-activity.card:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3; 
+}
+.wrapper-activities #small-activity.card:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3; 
+}
+.wrapper-activities #Big-activity-2.card:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3; 
+}    
+.wrapper-activities #medium-activity-4.card:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3; 
+}   
+.wrapper-activities #medium-activity-5.card:active{
+    box-shadow: 4px 4px 4px 4px #c4c3c3; 
+}      
 footer {
     display: flex;
     flex-direction:row;
@@ -553,10 +645,12 @@ footer {
     height: 200px;
     align-content: space-around;
     background-color: #f4f4f4;
-    margin-top: 57px;
+    padding-left: 11px;
 }
-footer .wrapper-footer {
-    width: 450px;  
+footer .wrapper-footer { 
+    display: flex;
+    flex-direction: column;
+    padding-right: 245px;
 }
 footer .wrapper-footer h4{
     font-family: raleway; 
@@ -568,25 +662,16 @@ footer .wrapper-footer ul li {
     text-decoration: none;
     list-style-type: none !important;
     padding-bottom: 15px;
-
 }
 footer .wrapper-footer ul li a {
     color: #000000;
     text-decoration: none;
     padding-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-/*
-
+footer .wrapper-footer ul li a:hover{
+    font-weight: lighter;  
+    color: #0065fc;
+}
 
 @media only screen and (max-width: 768px) {
 }
