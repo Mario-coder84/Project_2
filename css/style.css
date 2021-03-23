@@ -15,7 +15,7 @@ header {
 .wrapper-nav  .logo {
     width: 150px;
     height: 50px;
-    margin-left: 10px;    
+    margin-left: -6px;    
 }
 .wrapper-nav .main-nav {
     width: 400px;
@@ -64,20 +64,19 @@ section {
 section .main-paragraph h2 {
     font-family: Raleway;
     color: #000000;
-    padding-left: 35px;
+    padding-left: 20px;
 }
 section .main-paragraph p {
-    font-weight: large;
     font-family: Raleway;
     color: #000000;
-    padding-left: 35px;
+    padding-left: 20px;
 }
 .wrapper-search {
     width: 100%;
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 15px 20px 20px 34px;
+    padding: 15px 20px 20px 20px;
 }
 .wrapper-search .icon-search {
     padding: 23px;
@@ -102,13 +101,11 @@ button {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border:2px;
-}  
-button p{
     color: #ffffff;
     font-size: 18px;
     font-family:raleway;
 }
-.icon-search-2{
+button .magnifier{
     display:none;
 }
 .wrapper-filters{
@@ -116,13 +113,12 @@ button p{
     flex-direction: row; 
     justify-content: left;
     align-items: center;
-    padding-left: 26px;
+    padding-left: 1px;
     width:100%;
 }    
 .wrapper-filters h3 {
     display:flex;
     flex-direction: row;
-    align-items: left;
     font-family:raleway;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -134,7 +130,7 @@ button p{
     padding: 14px 14px 14px 14px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 3px solid #DEEBFF;
+    border: 3px none;
     border-radius: 80px;
     font-size: 20px;
 }
@@ -158,19 +154,18 @@ button p{
 .wrapper-filters .filter-text:hover{
     font-weight: lighter;  
     color: #0065fc;
-    text-transform: uppercase;
 }
-.icon-filter-1 {
+.icon-filter-users {
     display: flex;
     flex-direction: row;
     padding: 14px 14px 14px 14px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 3px solid #DEEBFF;
+    border: 3px none;
     border-radius: 80px;
     font-size: 20px;
 }
-.wrapper-filters .filter-text-1{
+.wrapper-filters .filter-text-users{
     display: flex;
     flex-direction:row;
     padding: 13px 33px 13px 32px;
@@ -183,26 +178,25 @@ button p{
     margin-right: 20px;
     margin-left: -15px;
 }
-.icon-filter-1:hover{
+.icon-filter-users:hover{
     color:#f4f4f4;
     background-color: #0065FC;
 }
-.wrapper-filters .filter-text-1:hover{
+.wrapper-filters .filter-text-users:hover{
     font-weight: lighter;  
-    color: #0065fc;
-    text-transform: uppercase;
-}
-.icon-filter-2 {
+    color: #0065fc
+}    
+.icon-filter-heart {
     display: flex;
     flex-direction: row;
     padding: 14px 14px 14px 14px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 3px solid #DEEBFF;
+    border: 3px none;
     border-radius: 80px;
     font-size: 20px;
 }
-.wrapper-filters .filter-text-2{
+.wrapper-filters .filter-text-heart{
     display: flex;
     flex-direction:row;
     padding: 13px 33px 13px 32px;
@@ -215,26 +209,25 @@ button p{
     margin-right: 20px;
     margin-left: -15px;
 }
-.icon-filter-2:hover{
+.icon-filter-heart:hover{
     color:#f4f4f4;
     background-color: #0065FC;
 }
-.wrapper-filters .filter-text-2:hover{
+.wrapper-filters .filter-text-heart:hover{
     font-weight: lighter;  
     color: #0065fc;
-    text-transform: uppercase;
 }
-.icon-filter-3 {
+.icon-filter-dog {
     display: flex;
     flex-direction: row;
     padding: 14px 14px 14px 14px;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 3px solid #DEEBFF;
+    border: 3px none;
     border-radius: 80px;
     font-size: 20px;
 }
-.wrapper-filters .filter-text-3{
+.wrapper-filters .filter-text-dog{
     display: flex;
     flex-direction:row;
     padding: 13px 33px 13px 32px;
@@ -247,21 +240,20 @@ button p{
     margin-right: 20px;
     margin-left: -15px;
 }
-.icon-filter-3:hover{
+.icon-filter-dog:hover{
     color:#f4f4f4;
     background-color: #0065FC;
 }
-.wrapper-filters .filter-text-3:hover{
+.wrapper-filters .filter-text-dog:hover{
     font-weight: lighter;  
-    color: #0065fc;
-    text-transform: uppercase;
+    color: #0065fc
 }
 .information{
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    padding-left: 26px;
+    padding-left: 0px;
     width: 100%;
 }
 .information-icon{
@@ -285,7 +277,7 @@ article {
     justify-content: flex-start;
     flex-wrap: wrap;
     background-color: #f4f4f4;
-    margin-left: 31px;
+    margin-left: 18px;
     margin-right: 20px;
     padding-left: 40px;
     padding-right: 20px;
@@ -295,7 +287,6 @@ article {
 .wrapper-accommodations-title{
     display:flex;
     width: 100%;
-    align-items: left;
     font-family:raleway;
     margin-bottom: 20px;
     padding-top: 20px;
@@ -337,7 +328,6 @@ article {
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: left;
     flex-direction: column;
     text-align: left;
     background-color: #ffffff;
@@ -352,7 +342,7 @@ article {
     padding: 2px;
     margin-top: -20px;
 }
-.wrapper-accommodations .card .icon-stars-1{
+.wrapper-accommodations .card .icon-stars{
     width: 100%;
     padding-bottom: 10px;
     color: #0065FC;
@@ -362,19 +352,7 @@ article {
     border-bottom-right-radius: 20px;
     margin-top: -6px;
 }
-#blackstar-1 {
-    color: #f2f2f2;
-}
-#blackstar-2{
-    color: #f2f2f2;
-}
-#blackstar-3{
-    color: #f2f2f2;
-}
-#blackstar-4{
-    color: #f2f2f2;
-}
-#blackstar-5{
+.blackstar {
     color: #f2f2f2;
 }
 .wrapper-accommodations .card:active{
@@ -387,7 +365,6 @@ article {
 .wrapper-dropdown-menu{
     display: flex;
     width: 100%;
-    align-items: left;
     font-family:raleway;
     margin-bottom: 20px;
     padding-left: 15px;
@@ -443,34 +420,6 @@ article {
     padding: 2px;  
     justify-content: space-between;
 }
-.wrapper-most-popular .card-2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 320px;
-    height: 133px;
-    background-color: #fff;
-    box-shadow: 2px 2px 2px 2px #c4c3c3;
-    transition: 0.3s;
-    border-radius: 20px;
-    margin-left: 7px; 
-    padding: 2px;  
-    
-}
-.wrapper-most-popular .card-3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 320px;
-    height: 133px;
-    background-color: #fff;
-    box-shadow: 2px 2px 2px 2px #c4c3c3;
-    transition: 0.3s;
-    border-radius: 20px;
-    margin-left: 7px; 
-    padding: 2px;  
-    
-}
 .wrapper-most-popular  .wrapper-hotel-image{
     width:100%;
     height: 128px;
@@ -510,33 +459,22 @@ article {
     padding-left: 14px;
     padding-bottom:30px;
 }
-.wrapper-most-popular .icon-stars-1 {
+.wrapper-most-popular .icon-stars {
+    padding-left: 14px;
+    color: #0065FC;
+    font-size: x-small;
+    margin-top: -7px;
+}
+.wrapper-most-popular .icon-stars-blackstar{
+    margin-top: -27px;
     padding-left: 14px;
     color: #0065FC;
     font-size: x-small;
 }
-#first-group-stars {
-    margin-top: -20px;
-}
-#second-group-stars {
-    margin-top: -20px;
-}    
-#blackstar-6  {
-    color: #f2f2f2;  
-}
-#blackstar-7 {
-    color: #f2f2f2;
-}
 .wrapper-most-popular .card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3;
-}
-.wrapper-most-popular .card-2:active{
-    box-shadow: 4px 4px 4px 4px #c4c3c3;
-}
-.wrapper-most-popular .card-3:active{
-    box-shadow: 4px 4px 4px 4px #c4c3c3;
-}        
-.wrapper-most-popular .links-2{
+}     
+.wrapper-most-popular .links-most-popular{
     color: black;
     text-decoration: none;
     margin-bottom: 35px;
@@ -548,7 +486,7 @@ article {
     justify-content: space-around;
     flex-wrap: wrap;
     width:100%;
-    padding-left: 5px;
+    padding-left: 0px;
     padding-bottom: 50px;
 }
 .activities-header {
@@ -563,7 +501,7 @@ article {
     padding-bottom: 15px;
     padding-left: 34px;
 }
-.wrapper-activities #Big-activity.card {
+.wrapper-activities .big-card {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -571,19 +509,19 @@ article {
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;
 }  
-.wrapper-activities #Big-activity.card .wrapper-activities-img {
+.wrapper-activities .big-card .wrapper-activities-img {
     width: 300px;
     height: 376px;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.wrapper-activities #Big-activity.card .wrapper-activities-img .Activity-big-img {
+.wrapper-activities .big-card .wrapper-activities-img .Activity-big-img {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 20px; 
 }
-.wrapper-activities #Big-activity.card .wrapper-activity-info {
+.wrapper-activities .big-card .wrapper-activity-info {
     height: 52px;
 }
 .wrapper-activities h4 {
@@ -591,14 +529,12 @@ article {
     margin-top:15px;
     font-family: raleway;
 }
-
-.container-2 {
+.container-small-cards {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-.wrapper-activities #medium-activity.card {
+.wrapper-activities .small-card {
     display: flex;
     flex-direction: column;
     height: 236px;
@@ -608,19 +544,19 @@ article {
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;    
 }
-.wrapper-activities #medium-activity.card .wrapper-activities-img-2 {
+.wrapper-activities .small-card .wrapper-activities-img-pomegues {
     width: 291px;
     height: 376px;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.wrapper-activities #medium-activity.card .wrapper-activities-img-2 .activity-medium-img-2 {
+.wrapper-activities .small-card .wrapper-activities-img-pomegues .activity-medium-img-pomegues {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 20px; 
 }
-.wrapper-activities #small-activity.card {
+.wrapper-activities .xsmall-card {
     display: flex;
     flex-direction: column;
     height: 152px;
@@ -630,49 +566,24 @@ article {
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;     
 }
-.wrapper-activities #small-activity.card .wrapper-activities-img-3 {
+.wrapper-activities .xsmall-card .wrapper-activities-img-frioul {
     width: 291px;
     height: 376px;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.wrapper-activities #small-activity.card .wrapper-activities-img-3 .activity-medium-img-3 {
+.wrapper-activities .xsmall-card .wrapper-activities-img-3 .activity-medium-img-frioul {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 20px; 
 }
-.wrapper-activities #Big-activity-2.card {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px #c4c3c3;
-    transition: 0.3s;
-}
-.wrapper-activities #Big-activity-2.card .wrapper-activities-img {
-    width: 300px;
-    height: 376px;
-    overflow: hidden;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.wrapper-activities #Big-activity-2.card .wrapper-activities-img .Activity-big-img {
-    flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 20px; 
-}
-.wrapper-activities #Big-activity-2.card .wrapper-activity-info {
-    height: 52px;
-}
-
-.container-3{
+.container-medium-cards{
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
 }
-
-.wrapper-activities #medium-activity-4.card {
+.wrapper-activities .medium-card {
     display: flex;
     flex-direction: column;
     height: 194px;
@@ -682,59 +593,43 @@ article {
     box-shadow: 2px 2px 2px 2px #c4c3c3;
     transition: 0.3s;  
 }
-.wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 {
+.wrapper-activities .medium-card .wrapper-activities-img-notre {
     width: 291px;
     height: 376px;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 .activity-medium-img-4 {
+.wrapper-activities .medium-card .wrapper-activities-img-4 .activity-medium-img-notre {
     flex-direction: column;
     background-color: #ffffff;
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px;
 }
-.wrapper-activities #medium-activity-5.card {
-    display: flex;
-    flex-direction: column;
-    height: 194px;
-    width: 291px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px #c4c3c3;
-    transition: 0.3s;   
-}
-.wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 {
+.wrapper-activities .medium-card .wrapper-activities-img-longchamp {
     width: 291px;
     height: 376px;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 .activity-medium-img-5 {
+.wrapper-activities .medium-card .wrapper-activities-img-5 .activity-medium-img-longchamp {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 20px; 
 }
-.wrapper-activities #Big-activity.card:active{
+.wrapper-activities .big-card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3;
 } 
-.wrapper-activities #medium-activity.card:active{
+.wrapper-activities .medium-card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3; 
 }
-.wrapper-activities #small-activity.card:active{
+.wrapper-activities .small-card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3; 
 }
-.wrapper-activities #Big-activity-2.card:active{
+.wrapper-activities .xsmall-card:active{
     box-shadow: 4px 4px 4px 4px #c4c3c3; 
 }    
-.wrapper-activities #medium-activity-4.card:active{
-    box-shadow: 4px 4px 4px 4px #c4c3c3; 
-}   
-.wrapper-activities #medium-activity-5.card:active{
-    box-shadow: 4px 4px 4px 4px #c4c3c3; 
-}      
 footer {
     display: flex;
     flex-direction:row;
@@ -743,7 +638,7 @@ footer {
     height: 200px;
     align-content: space-around;
     background-color: #f4f4f4;
-    padding-left: 11px;
+    padding-left: 7px;
 }
 footer .wrapper-footer { 
     display: flex;
@@ -770,124 +665,84 @@ footer .wrapper-footer ul li a:hover{
     font-weight: lighter;  
     color: #0065fc;
 }
-
-@media screen and (max-width: 1337px) {
-
+@media screen and (max-width: 1292px) {
     .wrapper-accommodations{
-       height: 908px;
-    }
-
-    .wrapper-most-popular {
+        height: 908px;
+     } 
+     .wrapper-most-popular {
         height: 908px; 
         justify-content: flex-start;
     }
-
     .wrapper-most-popular .wrapper-cards{
         justify-content: space-evenly;
     }
-    footer .wrapper-footer { 
-        padding-right: 196px;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-        
     .wrapper-activities{
         align-content: space-around;
         flex-wrap: wrap;
         height: 690px;
     }
-    .wrapper-activities #Big-activity.card {
+    .wrapper-activities .big-card {
         margin-right: 15px;
     }  
-    .wrapper-activities #Big-activity.card .wrapper-activities-img {
+    .wrapper-activities .big-card .wrapper-activities-img {
         width: 317px;
         height: 184px;
     }
-    .wrapper-activities #Big-activity.card .wrapper-activities-img .Activity-big-img {
+    .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img {
         height: 100%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         width: 100%;
     }
-    .container-2 {
+    .container-small-cards {
         flex-direction: row;
         width: 732px;
         margin-bottom: 20px;
     }
-    .wrapper-activities #medium-activity.card {
+    .wrapper-activities .small-card {
         width: 317px   
     }
-    .wrapper-activities #medium-activity.card .wrapper-activities-img-2 {
+    .wrapper-activities .small-card .wrapper-activities-img-pomegues {
         width: 317px;
     }
-    .wrapper-activities #small-activity.card {
+    .wrapper-activities .xsmall-card {
         height: 236px;
         width: 317px;  
     }
-    .wrapper-activities #small-activity.card .wrapper-activities-img-3 {
+    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul {
         width: 317px;
     }
-    .wrapper-activities #small-activity.card .wrapper-activities-img-3 .activity-medium-img-3 {
+    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul .activity-medium-img-frioul {
         width: 100%;
         height: 100%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }    
-    .wrapper-activities #Big-activity-2.card {
-        margin-right: 15px; 
-    }
-    .wrapper-activities #Big-activity-2.card .wrapper-activities-img {
-        width: 317px;
-        height: 175px;
-    }
-    .wrapper-activities #Big-activity-2.card .wrapper-activities-img .Activity-big-img {
-        width: 100%;
-        height: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-    .container-3{
+    .container-medium-cards{
         flex-direction: row;
         width: 732px;
     }
-    .wrapper-activities #medium-activity-4.card {
+    .wrapper-activities .medium-card {
         height: 227px;
         width: 317px;
     }
-    .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 {
+    .wrapper-activities .medium-card .wrapper-activities-img-notre {
         width: 317px;
     }
-    .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 .activity-medium-img-4{
+    .wrapper-activities .medium-card .wrapper-activities-img-notre .activity-medium-img-notre{
         width: 107%;
     }
-    .wrapper-activities #medium-activity-5.card {
-        height: 227px;
-        width: 317px; 
-    }
-    .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 {
+    .wrapper-activities .medium-card .wrapper-activities-img-longchamp {
         width: 317px;
     }
-    .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 .activity-medium-img-5 {
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+    .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp {
         width: 115%;
     }
     footer .wrapper-footer { 
         padding-right: 110px;
     }  
 }
-
-    @media screen and (max-width: 1139px) {  
-    .container-2{
-        width: 683px;
-    } 
-    .container-3{
-        width: 683px;
-    } 
-}
-
-    @media screen and (max-width: 1074px) {
+    @media screen and (max-width: 1084px) {
     .wrapper-accommodations .card .wrapper-hotel-img {
          width: 200px; 
     }
@@ -897,245 +752,79 @@ footer .wrapper-footer ul li a:hover{
         padding-bottom: 50px;
         height: 690px;
     }
-    .wrapper-activities #Big-activity.card {
+    .wrapper-activities .big-card {
         margin-bottom: 20px;
         margin-right: 15px;
     }  
-    .wrapper-activities #Big-activity.card .wrapper-activities-img {
+    .wrapper-activities .big-card .wrapper-activities-img {
         width: 269px;
         height: 180px;
     }
-    .wrapper-activities #Big-activity.card .wrapper-activities-img .Activity-big-img {
+    .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img {
         height: 100%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }
-    .wrapper-activities #Big-activity.card .wrapper-activity-info {
+    .wrapper-activities .big-card .wrapper-activity-info {
         height: 52px;
     }
-    .container-2 {
-        width: 612px;
+    .container-small-cards {
+        width: 60.7%;
         margin-bottom: 20px;
     }
-    .wrapper-activities #medium-activity.card {
+    .wrapper-activities .small-card {
         height: 236px;
         width: 269px;   
     }
-    .wrapper-activities #medium-activity.card .wrapper-activities-img-2 {
+    .wrapper-activities .small-card .wrapper-activities-img-pomegues {
         width: 269px;
         height: 180px;
     }
-    .wrapper-activities #medium-activity.card .wrapper-activities-img-2 .activity-medium-img-2 {
+    .wrapper-activities .small-card .wrapper-activities-img-pomegues .activity-medium-img-pomegues {
         border-radius: 20px; 
     }
-    .wrapper-activities #small-activity.card {
+    .wrapper-activities .xsmall-card {
         height: 236px;
         width: 269px;  
     }
-    .wrapper-activities #small-activity.card .wrapper-activities-img-3 {
+    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul {
         width: 269px;
     }
-    .wrapper-activities #small-activity.card .wrapper-activities-img-3 .activity-medium-img-3 {
+    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul .activity-medium-img-frioul {
         width: 100%;
         height: 100%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
     }    
-    .wrapper-activities #Big-activity-2.card {
-        margin-right: 15px;
-        margin-left: 1px;  
+    .container-medium-cards{
+        width: 60.7%;
     }
-    .wrapper-activities #Big-activity-2.card .wrapper-activities-img {
-        width: 269px;
-        height: 180px;
-    }
-    .wrapper-activities #Big-activity-2.card .wrapper-activities-img .Activity-big-img {
-        width: 100%;
-        height: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-    .wrapper-activities #Big-activity-2.card .wrapper-activity-info {
-        height: 52px;
-    }
-    .container-3{
-        width: 612px;
-    }
-    .wrapper-activities #medium-activity-4.card {
+    .wrapper-activities .medium-card {
         height: 229px;
         width: 269px;
     }
-    .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 {
+    .wrapper-activities .medium-card .wrapper-activities-img-notre {
         width: 269px;
         height: 180px;
     }
-    .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 .activity-medium-img-4 {
+    .wrapper-activities .medium-card .wrapper-activities-img-notre .activity-medium-img-notre {
         border-radius: 20px; 
     }
-    .wrapper-activities #medium-activity-5.card {
-        height: 227px;
-        width: 269px; 
-    }
-    .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 {
+    .wrapper-activities .medium-card .wrapper-activities-img-longchamp {
         width: 269px;
         height: 376px;
     }
-    .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 .activity-medium-img-5 {
+    .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp {
         border-bottom-left-radius: 0px;
     }
 }   
-    @media screen and (max-width: 1024px){
-    .container-2{
-            width: 597px;
-        }
-    .container-3{
-            width: 597px;
-    } 
-    @media all and (min-width: 941px) and (max-width: 954px){
-        article{
-            display: flex;
-            flex-wrap: wrap-reverse;
-        /* width: 500px; */
-            justify-content: center;
-        }
-        .wrapper-filters {
-            display: flex;
-            align-items: center;
-            padding-left: 26px;
-            width: 500px;
-            flex-wrap: wrap;
-            height: 274px;
-        }
-        .wrapper-filters h3 {
-            align-self: flex-start;
-            order: 1;
-            margin-top:-25px;
-        }
-        .icon-filter {
-            align-self: flex-end; 
-            order: 2;
-            margin-left: -87px;
-        }
-        .wrapper-filters .filter-text {
-            align-self: flex-end; 
-            order: 3;
-        }
-        .icon-filter-1 {
-            align-self: center; 
-            order: 6;
-            margin-right: 35px;
-            margin-top: -52px;
-            margin-left: 9px;
-        }
-        .wrapper-filters .filter-text-1{
-            align-self: center; 
-            order: 7;
-            margin-left: -52px;
-            margin-top: -52px;
-        }
-        .icon-filter-2 {
-            align-self: flex-end; 
-            order: 4;
-        }
-        .wrapper-filters .filter-text-2{
-            align-self: flex-end; 
-            order: 5;
-        }
-        .icon-filter-3 {
-            align-self: flex-end; 
-            order: 8;
-            margin-left: -244px;
-        }
-        .wrapper-filters .filter-text-3{
-            align-self: flex-end; 
-            order: 9;
-        }
-        .information-icon{
-            margin-left: 22px;
-            margin-top: 23px;
-        }
-        .information p {
-            margin-top: 22px;
-        }
-        .wrapper-accommodations {
-            height: 638px;
-            margin-top:20px;
-        }
-        .wrapper-accommodations-title{
-            padding-left: 0px;
-        }
-        .wrapper-most-popular {
-            width: 647px;
-            height: 820px;
-            margin-bottom: 10px;
-        }    
-        .wrapper-mini-header {
-            justify-content: space-between; 
-        }
-        .most-popular-title h2{
-            padding-left: 30px;
-        }
-        .icon-most-popular{
-            padding-right: 35px;
-        }
-        .wrapper-most-popular .card{
-            width: 546px;
-            height: 196px;
-        }
-        .wrapper-most-popular .wrapper-hotel-image {
-            height: 189px;
-        }
-        .wrapper-most-popular .card-2{
-            width: 546px;
-            height: 196px;
-        }
-        .wrapper-most-popular .card-3{
-            width: 546px;
-            height: 196px;
-        }
-        .wrapper-activities {
-            height: 900px;
-        }
-        .wrapper-activities #Big-activity.card{
-            order:2;
-            margin-right: -64px;
-            margin-left: 28px;
-        }
-        .container-2{
-            flex-direction: row;
-            order:4;
-            width:656px;
-    
-        }
-        .wrapper-activities #Big-activity-2.card{
-            order:3;
-            
-        }
-        .container-3 {
-            flex-direction: row;
-            order:5;
-            width: 656px;
-        }
-        footer .wrapper-footer{
-            padding-right: 50px;
-        }
-        .wrapper-activities #Big-activity-2.card {
-            margin-bottom: 20px;  
-        }
-    }  
-    }
-    @media screen and (max-width: 940px) {
-    article{
-        display: flex;
-        flex-wrap: wrap-reverse;
-    /* width: 500px; */
-        justify-content: center;
-    }
+    @media screen and (max-width: 982px) {
+  
     .wrapper-filters {
         display: flex;
         align-items: center;
         padding-left: 26px;
-        width: 500px;
+        width: 470px;
         flex-wrap: wrap;
         height: 274px;
     }
@@ -1152,36 +841,47 @@ footer .wrapper-footer ul li a:hover{
     .wrapper-filters .filter-text {
         align-self: flex-end; 
         order: 3;
+        margin-left: -28px;
     }
-    .icon-filter-1 {
+    .icon-filter-users {
         align-self: center; 
         order: 6;
         margin-right: 35px;
         margin-top: -52px;
         margin-left: 9px;
     }
-    .wrapper-filters .filter-text-1{
+    .wrapper-filters .filter-text-users{
         align-self: center; 
         order: 7;
-        margin-left: -52px;
+        margin-left: -56px;
         margin-top: -52px;
     }
-    .icon-filter-2 {
+    .icon-filter-heart {
         align-self: flex-end; 
         order: 4;
     }
-    .wrapper-filters .filter-text-2{
+    .wrapper-filters .filter-text-heart{
         align-self: flex-end; 
         order: 5;
+        margin-left: -24px;
     }
-    .icon-filter-3 {
+    .icon-filter-dog {
         align-self: flex-end; 
         order: 8;
-        margin-left: -244px;
+        margin-left: -229px;
     }
-    .wrapper-filters .filter-text-3{
+    .wrapper-filters .filter-text-dog{
         align-self: flex-end; 
         order: 9;
+        margin-left: -24px;
+    }
+}
+    @media screen and (max-width: 949px) {
+    
+    article{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
     }
     .information-icon{
         margin-left: 22px;
@@ -1218,64 +918,61 @@ footer .wrapper-footer ul li a:hover{
     .wrapper-most-popular .wrapper-hotel-image {
         height: 189px;
     }
-    .wrapper-most-popular .card-2{
-        width: 546px;
-        height: 196px;
-    }
-    .wrapper-most-popular .card-3{
-        width: 546px;
-        height: 196px;
-    }
-    .wrapper-activities {
-        height: 900px;
-    }
-    .wrapper-activities #Big-activity.card{
-        order:2;
-        margin-right: -64px;
-        margin-left: 28px;
-    }
-    .container-2{
-        flex-direction: row;
-        order:4;
-        width:656px;
-
-    }
-    .wrapper-activities #Big-activity-2.card{
-        order:3;
-        
-    }
-    .container-3 {
-        flex-direction: row;
-        order:5;
-        width: 656px;
-    }
     footer .wrapper-footer{
         padding-right: 50px;
     }
-    .wrapper-activities #Big-activity-2.card {
-        margin-bottom: 20px;  
-    }
 }
-    @media screen and (max-width: 836px) {
+    @media screen and (max-width: 837px) {
 
         .wrapper-accommodations {
-            height: 870px; 
+            height: 652px; 
         }      
-        .wrapper-activities #Big-activity.card {
-            margin-right: -47px;
-            margin-left: 15px;
+        .wrapper-activities {
+            height: 490px;
         }
-        .container-2{
-            width:629px;
+        .wrapper-activities .big-card{
+            width: 220px;
+            height: 200px;
         }
-        .container-3 {
-            width: 629px;
-}
+        .wrapper-activities .big-card .wrapper-activities-img{
+            width: 220px;
+        }
+        .container-small-cards{
+            flex-direction: row;
+        }
+        .wrapper-activities .small-card {
+            width: 220px;
+            height: 200px;
+        }
+        .wrapper-activities .small-card .wrapper-activities-img-pomegues {
+            width: 220px;
+        }
+        .wrapper-activities .xsmall-card {
+            width: 220px;
+            height: 200px;
+        }
+        .wrapper-activities .xsmall-card .wrapper-activities-img-frioul{
+            width: 220px;
+        }    
+        .container-medium-cards {
+            flex-direction: row;
+        }
+        .wrapper-activities .medium-card{
+            width: 220px;
+            height: 200px;
+        }
+        .wrapper-activities .medium-card .wrapper-activities-img-notre{
+            width: 220px;
+        }
+        .wrapper-activities .medium-card .wrapper-activities-img-longchamp{
+            width: 220px;
+        }
     }
     @media screen and (max-width: 768px) {
         .wrapper-accommodations{
             margin-right: 24px;
             padding-left: 40px;
+            height: 900px;
         }
         .wrapper-accommodations-title{
             margin-left: -2px;
@@ -1283,23 +980,17 @@ footer .wrapper-footer ul li a:hover{
         .activities-header h2{
             padding-left: 64px;
         }
-        .wrapper-activities #Big-activity.card{
-            margin-left:36px;
-        }
-        .container-2 {
-            width: 585px;
+        .container-small-cards {
+            width: 63%;
         }   
-        .wrapper-activities #Big-activity-2.card{
-            margin-right: 36px;
-        }
-        .container-3 {
-            width: 585px;
+        .container-medium-cards {
+            width: 63%;
         }
         footer .wrapper-footer {
-            padding-right: 30px;
+            padding-right: 40px;
     }
 }
-    @media all and (min-width: 415px) and (max-width: 720px){
+    @media screen and (max-width: 414px) {
         .header {
             height: 70px;
         }
@@ -1315,10 +1006,10 @@ footer .wrapper-footer ul li a:hover{
             margin-left: 12px;
         }
         nav a{
-        padding:0px 170px 16px 91px;    
+        padding:0px 251px 16px 96px;    
         border-bottom: #f4f4f4 3px solid;
         border-top: #ffffffff 0px none;
-        margin-left: -190px;
+        margin-left: -210px;
         font-weight: 300;
         font-size: medium;
         
@@ -1326,12 +1017,12 @@ footer .wrapper-footer ul li a:hover{
         nav a:hover {
             color:#0065FC; 
             border-bottom-color:#0065FC;
-            border-top-color: none;
+            border-top-color: transparent;
         }
         .wrapper-nav .sign-up{
             margin-right: 6px;
             font-weight: bold;
-            padding-top: 20px;
+            padding-top: 17px;
         }
         section .main-paragraph h2{
             padding-left: 14px;
@@ -1358,248 +1049,14 @@ footer .wrapper-footer ul li a:hover{
             border-bottom-left-radius: 10px;
             margin-left: -5px;
     }  
-        button p{
-            display: none;
+        .search-button {
+           color:transparent;
     }
-        .icon-search-2{
+        button .magnifier{
             color: #ffffff;
             font-size: 18px;
             display: inline;
-    }
-        .wrapper-filters {
-            padding-left: 0px;
-    }
-        .information{
-            padding-left: 0px;
-            margin-left: -7px;
-            padding-bottom: 20px;
-    }
-        article{
-            width: 452px;
-        }
-        .wrapper-most-popular{
-           height: 675px;
-           border-radius: 0px;
-           margin-left: -12px;
-    }
-        .most-popular-title {
-           margin-left: -2px;
-    }       
-        .icon-most-popular{
-           margin-right: 30px;
-    }
-        .wrapper-most-popular .wrapper-cards{
-            align-items: flex-start;
-            margin-left: 7px;
-    }
-        .wrapper-most-popular .card {
-           width: 355px;
-           height: 154px;
-    }
-        .wrapper-most-popular .wrapper-hotel-image {
-           height: 150px;
-    }
-        .wrapper-most-popular .card-2 {
-           width: 355px;
-           height: 150px;
-           margin-left: 1px;
-}
-        .wrapper-most-popular .card-3{
-           width: 355px;
-           height: 150px;
-           margin-left: 1px;
-}
-        .wrapper-accommodations {
-           background-color: #ffffff;
-           height: 1550px;
-           padding-left: 10px;
-           margin-left: 5px;
-           margin-top:0px;
- }
-        .wrapper-accommodations-title{
-           margin-left: 1px;
- }
-        .wrapper-accommodations .wrapper-cards-left{
-           margin-left: -14px;
- }
-        .wrapper-accommodations .wrapper-accommodations-title h2{
-           font-size: 22px;
- }
-        .wrapper-accommodations .card .wrapper-hotel-img{
-           width: 355px;
-           height: 100px;
- }
-        .wrapper-dropdown-menu{
-           margin-left: -15px; 
-}
-        .article-2 {
-            width: 452px;
- }
-        .wrapper-activities{
-           align-content: flex-start;
-           margin-top: -60px;
-           height: 1360px;
- }    
-        .activities-header h2{
-           margin-left: -54px;
- }
-        .wrapper-activities #Big-activity.card{
-           margin-left: -14px;
-           margin-right: 0px;
-           order: 0;
-
- }
-        .wrapper-activities #Big-activity.card .wrapper-activities-img{
-            width: 355px;
-            height: 150px;
-           
- }
-        .wrapper-activities #Big-activity.card .wrapper-activities-img .Activity-big-img{
-            height: 150%; 
- }
-        .container-2{
-           flex-direction: column;
-           height: 405px;
-           order:0;
-           align-items: center;
-           margin-left: -14px;
- }
-        .wrapper-activities #medium-activity.card{
-            height: 190px;
-            width: 355px;
-}
-        .wrapper-activities #medium-activity.card .wrapper-activities-img-2{
-            width: 355px;
-            height: 190px;
-        }
-        .wrapper-activities #medium-activity.card .wrapper-activities-img-2 .activity-medium-img-2{
-            width: 370px;
-            height: 310px;
-        }
-        .wrapper-activities #small-activity.card{
-            height: 195px;
-            width: 355px;
-        }
-        .wrapper-activities #small-activity.card .wrapper-activities-img-3{
-            width: 355px;
-        }
-        .wrapper-activities #Big-activity-2.card{
-           order: 0;
-           margin-right: 1px;
-           margin-left: -14px;
- }      
-        .wrapper-activities #Big-activity-2.card .wrapper-activities-img{
-           width: 355px;
-           height: 130px;
-} 
-        .wrapper-activities #Big-activity-2.card .wrapper-activities-img .Activity-big-img{
-            height: 150%;
-        }
-        .container-3{
-           flex-direction: column;
-           height: 385px;
-           order:0;
-           align-items: center;
-           margin-left: -14px;
- }
-        .wrapper-activities #medium-activity-4.card{
-            height: 180px;
-            width: 355px;
-        }
-        .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4{
-            width: 355px;
-        }
-        .wrapper-activities #medium-activity-5.card{
-            height: 180px;
-            width: 355px;
-        }
-        .wrapper-activities #medium-activity-5.card {
-            height: 180px;
-            width: 355px;
-        }    
-        .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5{
-            width: 355px;
-            height: 279px;
-        } 
-        .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 .activity-medium-img-5{
-            height: 199px;
-        }
-        footer {
-           flex-direction: column;
-           height: 550px;
-           padding-left: 10px;
-           width: 122%;
-           align-content: flex-start;
-           margin-left: -20px;
- }
-    }
-
-    @media screen and (max-device-width: 414px) {
-        .header {
-            height: 70px;
-        }
-        .wrapper-nav{
-            height: 164px;
-            margin-bottom: -60px;
-        }
-        .wrapper-nav .main-nav{
-            padding-right: 0px;
-        }
-        .wrapper-nav .logo{
-            height: 50px;
-            margin-left: 12px;
-        }
-        nav a{
-        padding:0px 170px 16px 91px;    
-        border-bottom: #f4f4f4 3px solid;
-        border-top: #ffffffff 0px none;
-        margin-left: -190px;
-        font-weight: 300;
-        font-size: medium;
-        
-        }
-        nav a:hover {
-            color:#0065FC; 
-            border-bottom-color:#0065FC;
-            border-top-color: none;
-        }
-        .wrapper-nav .sign-up{
-            margin-right: 6px;
-            font-weight: bold;
-            padding-top: 20px;
-        }
-        section .main-paragraph h2{
-            padding-left: 14px;
-    }
-        section .main-paragraph p{
-            padding-left: 14px;
-    }
-        .wrapper-search {
-            padding: 12px 0px 0px 12px;
-    }
-        .wrapper-search .icon-search {
-            padding: 15px;
-            border-radius: 15px 0 0 15px;
-            padding-left: 20px;
-    }
-        .wrapper-search #search {
-            padding: 12px;
-    }
-        button {
-            width: 50px;
-            height: 50px;
-            border-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-            margin-left: -5px;
-    }  
-        button p{
-            display: none;
-    }
-        .icon-search-2{
-            color: #ffffff;
-            font-size: 18px;
-            display: inline;
+            margin-left: -56px;
     }
         .wrapper-filters {
             padding-left: 0px;
@@ -1634,16 +1091,6 @@ footer .wrapper-footer ul li a:hover{
         .wrapper-most-popular .wrapper-hotel-image {
            height: 150px;
     }
-        .wrapper-most-popular .card-2 {
-           width: 355px;
-           height: 150px;
-           margin-left: 1px;
-}
-        .wrapper-most-popular .card-3{
-           width: 355px;
-           height: 150px;
-           margin-left: 1px;
-}
         .wrapper-accommodations {
            background-color: #ffffff;
            height: 1550px;
@@ -1667,9 +1114,6 @@ footer .wrapper-footer ul li a:hover{
         .wrapper-dropdown-menu{
            margin-left: -15px; 
 }
-        .article-2 {
-            width: 452px;
- }
         .wrapper-activities{
            align-content: flex-start;
            margin-top: -60px;
@@ -1678,85 +1122,64 @@ footer .wrapper-footer ul li a:hover{
         .activities-header h2{
            margin-left: -54px;
  }
-        .wrapper-activities #Big-activity.card{
-           margin-left: -14px;
-           margin-right: 0px;
+        .wrapper-activities .big-card{
+           width: 355px;
+           height: 190px;  
+           margin-left: -49px;
            order: 0;
-
  }
-        .wrapper-activities #Big-activity.card .wrapper-activities-img{
+        .wrapper-activities .big-card .wrapper-activities-img{
             width: 355px;
-            height: 150px;
-           
+            height: 190px;   
  }
-        .wrapper-activities #Big-activity.card .wrapper-activities-img .Activity-big-img{
+        .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img{
             height: 150%; 
  }
-        .container-2{
+        .container-small-cards{
            flex-direction: column;
            height: 405px;
            order:0;
            align-items: center;
-           margin-left: -14px;
+           margin-left: -62px;
  }
-        .wrapper-activities #medium-activity.card{
+        .wrapper-activities .small-card{
             height: 190px;
             width: 355px;
 }
-        .wrapper-activities #medium-activity.card .wrapper-activities-img-2{
+        .wrapper-activities .small-card .wrapper-activities-img-pomegues{
             width: 355px;
             height: 190px;
         }
-        .wrapper-activities #medium-activity.card .wrapper-activities-img-2 .activity-medium-img-2{
+        .wrapper-activities .small-card .wrapper-activities-img-pomegues .activity-medium-img-pomegues{
             width: 370px;
             height: 310px;
         }
-        .wrapper-activities #small-activity.card{
+        .wrapper-activities .xsmall-card{
             height: 195px;
             width: 355px;
         }
-        .wrapper-activities #small-activity.card .wrapper-activities-img-3{
+        .wrapper-activities .xsmall-card .wrapper-activities-img-frioul{
             width: 355px;
         }
-        .wrapper-activities #Big-activity-2.card{
-           order: 0;
-           margin-right: 1px;
-           margin-left: -14px;
- }      
-        .wrapper-activities #Big-activity-2.card .wrapper-activities-img{
-           width: 355px;
-           height: 130px;
-} 
-        .wrapper-activities #Big-activity-2.card .wrapper-activities-img .Activity-big-img{
-            height: 150%;
-        }
-        .container-3{
+        .container-medium-cards{
            flex-direction: column;
            height: 385px;
            order:0;
            align-items: center;
-           margin-left: -14px;
+           margin-left: -62px;
  }
-        .wrapper-activities #medium-activity-4.card{
+        .wrapper-activities .medium-card{
             height: 180px;
             width: 355px;
         }
-        .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4{
+        .wrapper-activities .medium-card .wrapper-activities-img-notre{
             width: 355px;
         }
-        .wrapper-activities #medium-activity-5.card{
-            height: 180px;
-            width: 355px;
-        }
-        .wrapper-activities #medium-activity-5.card {
-            height: 180px;
-            width: 355px;
-        }    
-        .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5{
+        .wrapper-activities .medium-card .wrapper-activities-img-longchamp{
             width: 355px;
             height: 279px;
         } 
-        .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 .activity-medium-img-5{
+        .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp{
             height: 199px;
         }
         footer {
@@ -1768,7 +1191,10 @@ footer .wrapper-footer ul li a:hover{
            margin-left: -20px;
  }
      }
-@media screen and (max-device-width: 375px)   {
+@media screen and (max-width: 375px)   {
+        nav a{
+            padding: 0px 251px 16px 76px;
+        }
         .wrapper-search .icon-search{
             padding: 13px;
         }  
@@ -1786,35 +1212,54 @@ footer .wrapper-footer ul li a:hover{
             padding: 7px 5px 7px 5px;
         }
         .wrapper-filters .filter-text  {
-            padding: 10px 16px 10px 18px;
+            padding: 8px 19px 7px 35px;
             font-size: small;
+            border: 1px solid #f4f4f4;
+            border-left: none;
+            border-top-left-radius: 21px;
+            border-bottom-left-radius: 21px;
         } 
-        .icon-filter-1{
+        .icon-filter-users{
             padding:7px 5px 7px 5px;
         }
-        .wrapper-filters .filter-text-1{
-            padding: 11px 15px 11px 22px;
+        .wrapper-filters .filter-text-users{
+            padding: 8px 19px 7px 35px;
             font-size: small;
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 12px;
+            border: 1px solid #f4f4f4;
+            border-left: none;
+            margin-left: -62px;
         }
-        .icon-filter-2 {
+        .icon-filter-heart {
             padding: 8px 7px 6px 7px;
         }
-        .wrapper-filters .filter-text-2 {
-            padding: 12px 16px 8px 20px;
+        .wrapper-filters .filter-text-heart {
+            padding: 8px 19px 7px 35px;
             font-size: small;
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 12px;
+            border: 1px solid #f4f4f4;
+            border-left: none;
         }
-        .icon-filter-3 {
+        .icon-filter-dog {
             margin-left: -176px;
             margin-bottom: 20px;
             padding: 7px 8px 7px 8px;
         }
-        .wrapper-filters .filter-text-3 {
+        .wrapper-filters .filter-text-dog {
             margin-bottom: 20px;
-            padding: 11px 40px 9px 22px;
+            padding: 8px 19px 7px 35px;
             font-size: small;
+            border-top-left-radius: 14px;
+            border-bottom-left-radius: 12px;
+            border: 1px solid #f4f4f4;
+            border-left: none;
         }
         .information-icon{
             margin-left: 21px;
+            font-size: 10px;
+            padding: 6px 9px 6px 9px;
         }
         .information p {
             font-size: small;
@@ -1827,46 +1272,41 @@ footer .wrapper-footer ul li a:hover{
         .wrapper-most-popular .card{
             width: 308px;
         }
-        .wrapper-most-popular .card-2{
-            width: 310px;
-        }
-        .wrapper-most-popular .card-3{
-            width: 310px;
-        }
         .wrapper-accommodations .wrapper-cards-left {
             margin-left: -56px;
         }
         .wrapper-accommodations .card .wrapper-hotel-img{
             width: 311px;
         }
-        .wrapper-activities #Big-activity.card .wrapper-activities-img{
+        .wrapper-activities .big-card {
+            width: 321px;
+            margin-right: 51px;
+        }
+        .wrapper-activities .big-card .wrapper-activities-img{
             width: 321px;
         }
-        .wrapper-activities #medium-activity.card {
+        .wrapper-activities .small-card {
             width: 321px;
+            margin-right: 38px;
         }
-        .wrapper-activities #medium-activity.card .wrapper-activities-img-2{
+        .wrapper-activities .small-card .wrapper-activities-img-pomegues{
          width: 321px;
         }
-        .wrapper-activities #small-activity.card{
+        .wrapper-activities .xsmall-card{
+         width: 321px;
+         margin-right: 38px;  
+        }
+        .wrapper-activities .xsmall-card .wrapper-activities-img-frioul{
          width: 321px;  
         }
-        .wrapper-activities #small-activity.card .wrapper-activities-img-3{
-         width: 321px;  
+        .wrapper-activities .medium-card{
+         width: 321px; 
+         margin-right: 38px;
         }
-        .wrapper-activities #Big-activity-2.card .wrapper-activities-img{
+        .wrapper-activities .medium-card .wrapper-activities-img-notre {
          width: 321px;
         }
-        .wrapper-activities #medium-activity-4.card{
-            width: 321px; 
+        .wrapper-activities .medium-card .wrapper-activities-img-longchamp {
+         width: 321px;
         }
-        .wrapper-activities #medium-activity-4.card .wrapper-activities-img-4 {
-            width: 321px;
-        }
-        .wrapper-activities #medium-activity-5.card {
-            width: 321px;
-        }
-        .wrapper-activities #medium-activity-5.card .wrapper-activities-img-5 {
-            width: 321px;
-        }
-    }
+}
