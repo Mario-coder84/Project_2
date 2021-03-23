@@ -1254,7 +1254,7 @@ footer .wrapper-footer ul li a:hover{
             border-top-left-radius: 14px;
             border-bottom-left-radius: 12px;
             border: 1px solid #f4f4f4;
-            border-left: none;
+            border-left: none; 
         }
         .information-icon{
             margin-left: 21px;
