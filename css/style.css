@@ -379,6 +379,7 @@ article {
     border-radius: 20px;
     margin-left: 11px;
     height: 674px; 
+    padding: 13px;
 }
 .wrapper-mini-header {
     display: flex;
@@ -403,7 +404,7 @@ article {
     flex-direction: column;
     justify-content: flex-start; 
     height: 700px;
-    padding: 0 20px 0 20px;
+    padding: 0 !important;
     align-items: center;
 }
 .wrapper-most-popular .card {
@@ -635,10 +636,9 @@ footer {
     flex-direction:row;
     flex-wrap: wrap;
     width: 100%;
-    height: 200px;
+    height: auto;
     align-content: space-around;
     background-color: #f4f4f4;
-    padding-left: 7px;
 }
 footer .wrapper-footer { 
     display: flex;
@@ -750,7 +750,7 @@ footer .wrapper-footer ul li a:hover{
         width: 100%;
         padding-left: 5px;
         padding-bottom: 50px;
-        height: 690px;
+        height: auto;
     }
     .wrapper-activities .big-card {
         margin-bottom: 20px;
@@ -923,12 +923,11 @@ footer .wrapper-footer ul li a:hover{
     }
 }
     @media screen and (max-width: 837px) {
-
         .wrapper-accommodations {
             height: 652px; 
         }      
         .wrapper-activities {
-            height: 490px;
+            height: auto;
         }
         .wrapper-activities .big-card{
             width: 220px;
@@ -969,10 +968,45 @@ footer .wrapper-footer ul li a:hover{
         }
     }
     @media screen and (max-width: 768px) {
+        .header {
+            height: 70px;
+        }
+        .wrapper-nav{
+            width: 100%;
+            height: 164px;
+            margin-bottom: -60px;
+        }
+        .wrapper-nav .main-nav{
+            padding-right: 0px;
+            justify-content: flex-start;
+        }
+        .wrapper-nav .logo{
+            height: 50px;
+            margin-left: 12px;
+            position: absolute;
+            z-index: 1;
+        }
+        nav a{
+            padding: 20px 35px 0px 25px;
+            border-bottom: #f4f4f4 3px solid;
+            border-top: #ffffffff 0px none;
+            font-weight: 300;
+            font-size: medium; 
+        }  
+        nav a:hover {
+            color:#0065FC; 
+            border-bottom-color:#0065FC;
+            border-top-color: transparent;
+        }  
+        .wrapper-nav .sign-up{
+            margin-right: 6px;
+            font-weight: bold;
+            padding-top: 17px;
+        }
         .wrapper-accommodations{
             margin-right: 24px;
             padding-left: 40px;
-            height: 900px;
+            height: auto;
         }
         .wrapper-accommodations-title{
             margin-left: -2px;
@@ -987,38 +1021,10 @@ footer .wrapper-footer ul li a:hover{
             width: 63%;
         }
         footer .wrapper-footer {
-            padding-right: 40px;
+            padding-right: 0px;
     }
 }
     @media screen and (max-width: 414px) {
-        .header {
-            height: 70px;
-        }
-        .wrapper-nav{
-            height: 164px;
-            margin-bottom: -60px;
-        }
-        .wrapper-nav .main-nav{
-            padding-right: 0px;
-        }
-        .wrapper-nav .logo{
-            height: 50px;
-            margin-left: 12px;
-        }
-        nav a{
-        padding:0px 251px 16px 96px;    
-        border-bottom: #f4f4f4 3px solid;
-        border-top: #ffffffff 0px none;
-        margin-left: -210px;
-        font-weight: 300;
-        font-size: medium;
-        
-        }
-        nav a:hover {
-            color:#0065FC; 
-            border-bottom-color:#0065FC;
-            border-top-color: transparent;
-        }
         .wrapper-nav .sign-up{
             margin-right: 6px;
             font-weight: bold;
@@ -1070,7 +1076,7 @@ footer .wrapper-footer ul li a:hover{
             width: 452px;
         }
         .wrapper-most-popular{
-           height: 675px;
+           height: auto;
            border-radius: 0px;
            margin-left: -12px;
     }
@@ -1093,7 +1099,7 @@ footer .wrapper-footer ul li a:hover{
     }
         .wrapper-accommodations {
            background-color: #ffffff;
-           height: 1550px;
+           height: auto;
            padding-left: 10px;
            margin-left: 5px;
            margin-top:0px;
@@ -1192,9 +1198,6 @@ footer .wrapper-footer ul li a:hover{
  }
      }
 @media screen and (max-width: 375px)   {
-        nav a{
-            padding: 0px 251px 16px 76px;
-        }
         .wrapper-search .icon-search{
             padding: 13px;
         }  
