@@ -818,8 +818,7 @@ footer .wrapper-footer ul li a:hover{
         border-bottom-left-radius: 0px;
     }
 }   
-    @media screen and (max-width: 982px) {
-  
+@media screen and (max-width: 982px) {
     .wrapper-filters {
         display: flex;
         align-items: center;
@@ -876,8 +875,7 @@ footer .wrapper-footer ul li a:hover{
         margin-left: -24px;
     }
 }
-    @media screen and (max-width: 949px) {
-    
+@media screen and (max-width: 949px) {
     article{
         display: flex;
         flex-wrap: wrap-reverse;
@@ -922,7 +920,7 @@ footer .wrapper-footer ul li a:hover{
         padding-right: 50px;
     }
 }
-    @media screen and (max-width: 837px) {
+@media screen and (max-width: 837px) {
         .wrapper-accommodations {
             height: 652px; 
         }      
@@ -966,8 +964,8 @@ footer .wrapper-footer ul li a:hover{
         .wrapper-activities .medium-card .wrapper-activities-img-longchamp{
             width: 220px;
         }
-    }
-    @media screen and (max-width: 783px) {
+}
+@media screen and (max-width: 783px) {
         .header {
             height: 70px;
         }
@@ -1023,7 +1021,7 @@ footer .wrapper-footer ul li a:hover{
             padding-right: 0px;
     }
 }
-    @media screen and (max-width: 656px) {
+@media screen and (max-width: 656px) {
         .wrapper-activities .big-card {
             width: 429px;
             height: 210px;
@@ -1039,7 +1037,7 @@ footer .wrapper-footer ul li a:hover{
             width: 85%;
         }
 }
-    @media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {
         .wrapper-nav .sign-up{
             margin-right: 6px;
             font-weight: bold;
