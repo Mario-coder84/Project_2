@@ -392,8 +392,7 @@ article {
 }
 .most-popular-title h2 {
     font-family: raleway;
-    padding-top: 15px; 
-    
+    padding-top: 15px;
 }
 .icon-most-popular {
     height:100px;
@@ -968,7 +967,7 @@ footer .wrapper-footer ul li a:hover{
             width: 220px;
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 783px) {
         .header {
             height: 70px;
         }
@@ -983,7 +982,6 @@ footer .wrapper-footer ul li a:hover{
         }
         .wrapper-nav .logo{
             height: 50px;
-            margin-left: 12px;
             position: absolute;
             z-index: 1;
         }
@@ -1020,10 +1018,26 @@ footer .wrapper-footer ul li a:hover{
         }   
         .container-medium-cards {
             width: 63%;
-        }
+         }
         footer .wrapper-footer {
             padding-right: 0px;
     }
+}
+    @media screen and (max-width: 656px) {
+        .wrapper-activities .big-card {
+            width: 429px;
+            height: 210px;
+        }
+        .wrapper-activities .big-card .wrapper-activities-img{
+            width: 429px;
+            height: 210px;
+        }
+        .container-small-cards{
+            width: 85%;
+        }
+        .container-medium-cards {
+            width: 85%;
+        }
 }
     @media screen and (max-width: 414px) {
         .wrapper-nav .sign-up{
@@ -1097,7 +1111,7 @@ footer .wrapper-footer ul li a:hover{
     }
         .wrapper-most-popular .wrapper-hotel-image {
            height: 150px;
-    }
+    } 
         .wrapper-accommodations {
            background-color: #ffffff;
            height: auto;
@@ -1141,7 +1155,7 @@ footer .wrapper-footer ul li a:hover{
  }
         .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img{
             height: 150%; 
- }
+ } 
         .container-small-cards{
            flex-direction: column;
            height: 405px;
@@ -1247,7 +1261,7 @@ footer .wrapper-footer ul li a:hover{
             border-left: none;
         }
         .icon-filter-dog {
-            margin-left: -176px;
+            margin-left: -179px;
             margin-bottom: 20px;
             padding: 7px 8px 7px 8px;
         }
