@@ -496,6 +496,7 @@ article {
     padding-top: 45px;
     padding-bottom: 15px;
     padding-left: 34px;
+    margin-left: -6px;
 }
 .wrapper-activities .big-card {
     display: flex;
@@ -660,554 +661,28 @@ footer .wrapper-footer ul li a:hover{
     font-weight: lighter;  
     color: #0065fc;
 }
-/*
-@media screen and (max-width: 1292px) {
-    .wrapper-accommodations{
-        height: 908px;
-     } 
-     .wrapper-most-popular {
-        height: 908px; 
-        justify-content: flex-start;
-    }
-    .wrapper-most-popular .wrapper-cards{
-        justify-content: space-evenly;
-    }
-    .wrapper-activities{
-        align-content: space-around;
-        flex-wrap: wrap;
-        height: 690px;
-    }
-    .wrapper-activities .big-card {
-        margin-right: 15px;
-    }  
-    .wrapper-activities .big-card .wrapper-activities-img {
-        width: 317px;
-        height: 184px;
-    }
-    .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img {
-        height: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        width: 100%;
-    }
-    .container-small-cards {
-        flex-direction: row;
-        width: 732px;
-        margin-bottom: 20px;
-    }
-    .wrapper-activities .small-card {
-        width: 317px   
-    }
-    .wrapper-activities .small-card .wrapper-activities-img-pomegues {
-        width: 317px;
-    }
-    .wrapper-activities .xsmall-card {
-        height: 236px;
-        width: 317px;  
-    }
-    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul {
-        width: 317px;
-    }
-    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul .activity-medium-img-frioul {
-        width: 100%;
-        height: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }    
-    .container-medium-cards{
-        flex-direction: row;
-        width: 732px;
-    }
-    .wrapper-activities .medium-card {
-        height: 227px;
-        width: 317px;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-notre {
-        width: 317px;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-notre .activity-medium-img-notre{
-        width: 107%;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-longchamp {
-        width: 317px;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp {
-        width: 115%;
-    }
-    footer .wrapper-footer { 
-        padding-right: 110px;
-    }  
-} /*
-    @media screen and (max-width: 1084px) {
-    .wrapper-accommodations .card .wrapper-hotel-img {
-         width: 200px; 
-    }
-    .wrapper-activities{
-        width: 100%;
-        padding-left: 5px;
-        padding-bottom: 50px;
-        height: auto;
-    }
-    .wrapper-activities .big-card {
-        margin-bottom: 20px;
-        margin-right: 15px;
-    }  
-    .wrapper-activities .big-card .wrapper-activities-img {
-        width: 269px;
-        height: 180px;
-    }
-    .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img {
-        height: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-    .wrapper-activities .big-card .wrapper-activity-info {
-        height: 52px;
-    }
-    .container-small-cards {
-        width: 60.7%;
-        margin-bottom: 20px;
-    }
-    .wrapper-activities .small-card {
-        height: 236px;
-        width: 269px;   
-    }
-    .wrapper-activities .small-card .wrapper-activities-img-pomegues {
-        width: 269px;
-        height: 180px;
-    }
-    .wrapper-activities .small-card .wrapper-activities-img-pomegues .activity-medium-img-pomegues {
-        border-radius: 20px; 
-    }
-    .wrapper-activities .xsmall-card {
-        height: 236px;
-        width: 269px;  
-    }
-    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul {
-        width: 269px;
-    }
-    .wrapper-activities .xsmall-card .wrapper-activities-img-frioul .activity-medium-img-frioul {
-        width: 100%;
-        height: 100%;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }    
-    .container-medium-cards{
-        width: 60.7%;
-    }
-    .wrapper-activities .medium-card {
-        height: 229px;
-        width: 269px;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-notre {
-        width: 269px;
-        height: 180px;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-notre .activity-medium-img-notre {
-        border-radius: 20px; 
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-longchamp {
-        width: 269px;
-        height: 376px;
-    }
-    .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp {
-        border-bottom-left-radius: 0px;
-    }
-}   
-@media screen and (max-width: 982px) {
-    .wrapper-filters {
-        display: flex;
-        align-items: center;
-        padding-left: 26px;
-        width: 470px;
-        flex-wrap: wrap;
-        height: 274px;
-    }
-    .wrapper-filters h3 {
-        align-self: flex-start;
-        order: 1;
-        margin-top:-25px;
-    }
-    .icon-filter {
-        align-self: flex-end; 
-        order: 2;
-        margin-left: -87px;
-    }
-    .wrapper-filters .filter-text {
-        align-self: flex-end; 
-        order: 3;
-        margin-left: -28px;
-    }
-    .icon-filter-users {
-        align-self: center; 
-        order: 6;
-        margin-right: 35px;
-        margin-top: -52px;
-        margin-left: 9px;
-    }
-    .wrapper-filters .filter-text-users{
-        align-self: center; 
-        order: 7;
-        margin-left: -56px;
-        margin-top: -52px;
-    }
-    .icon-filter-heart {
-        align-self: flex-end; 
-        order: 4;
-    }
-    .wrapper-filters .filter-text-heart{
-        align-self: flex-end; 
-        order: 5;
-        margin-left: -24px;
-    }
-    .icon-filter-dog {
-        align-self: flex-end; 
-        order: 8;
-        margin-left: -229px;
-    }
-    .wrapper-filters .filter-text-dog{
-        align-self: flex-end; 
-        order: 9;
-        margin-left: -24px;
-    }
-}
-@media screen and (max-width: 949px) {
-    article{
-        display: flex;
-        flex-wrap: wrap-reverse;
-        justify-content: center;
-    }
-    .information-icon{
-        margin-left: 22px;
-        margin-top: 23px;
-    }
-    .information p {
-        margin-top: 22px;
-    }
-    .wrapper-accommodations {
-        height: 638px;
-        margin-top:20px;
-    }
-    .wrapper-accommodations-title{
-        padding-left: 0px;
-    }
-    .wrapper-most-popular {
-        width: 647px;
-        height: 820px;
-        margin-bottom: 10px;
-    }    
-    .wrapper-mini-header {
-        justify-content: space-between; 
-    }
-    .most-popular-title h2{
-        padding-left: 30px;
-    }
-    .icon-most-popular{
-        padding-right: 35px;
-    }
-    .wrapper-most-popular .card{
-        width: 546px;
-        height: 196px;
+ @media screen and (max-width: 1295px) {
+    .wrapper-most-popular .card {
+        height: 170px;
     }
     .wrapper-most-popular .wrapper-hotel-image {
-        height: 189px;
+        width: 152%;
     }
-    footer .wrapper-footer{
-        padding-right: 50px;
+    .wrapper-activities{
+        justify-content: space-between;
+        margin-left: 33px;
+        width: 92.5%;
     }
-}
-@media screen and (max-width: 837px) {
-        .wrapper-accommodations {
-            height: 652px; 
-        }      
-        .wrapper-activities {
-            height: auto;
-        }
-        .wrapper-activities .big-card{
-            width: 220px;
-            height: 200px;
-        }
-        .wrapper-activities .big-card .wrapper-activities-img{
-            width: 220px;
-        }
-        .container-small-cards{
-            flex-direction: row;
-        }
-        .wrapper-activities .small-card {
-            width: 220px;
-            height: 200px;
-        }
-        .wrapper-activities .small-card .wrapper-activities-img-pomegues {
-            width: 220px;
-        }
-        .wrapper-activities .xsmall-card {
-            width: 220px;
-            height: 200px;
-        }
-        .wrapper-activities .xsmall-card .wrapper-activities-img-frioul{
-            width: 220px;
-        }    
-        .container-medium-cards {
-            flex-direction: row;
-        }
-        .wrapper-activities .medium-card{
-            width: 220px;
-            height: 200px;
-        }
-        .wrapper-activities .medium-card .wrapper-activities-img-notre{
-            width: 220px;
-        }
-        .wrapper-activities .medium-card .wrapper-activities-img-longchamp{
-            width: 220px;
-        }
-}
-@media screen and (max-width: 783px) {
-        .header {
-            height: 70px;
-        }
-        .wrapper-nav{
-            width: 100%;
-            height: 164px;
-            margin-bottom: -60px;
-        }
-        .wrapper-nav .main-nav{
-            padding-right: 0px;
-            justify-content: flex-start;
-        }
-        .wrapper-nav .logo{
-            height: 50px;
-            position: absolute;
-            z-index: 1;
-        }
-        nav a{
-            padding: 20px 35px 0px 18px;
-            border-bottom: #f4f4f4 3px solid;
-            border-top: #ffffffff 0px none;
-            font-weight: 300;
-            font-size: medium; 
-        }  
-        nav a:hover {
-            color:#0065FC; 
-            border-bottom-color:#0065FC;
-            border-top-color: transparent;
-        }  
-        .wrapper-nav .sign-up{
-            margin-right: 6px;
-            font-weight: bold;
-            padding-top: 17px;
-        }
-        .wrapper-accommodations{
-            margin-right: 24px;
-            padding-left: 40px;
-            height: auto;
-        }
-        .wrapper-accommodations-title{
-            margin-left: -2px;
-        }
-        .activities-header h2{
-            padding-left: 64px;
-        }
-        .container-small-cards {
-            width: 63%;
-        }   
-        .container-medium-cards {
-            width: 63%;
-         }
-        footer .wrapper-footer {
-            padding-right: 0px;
+    .container-medium-cards{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 32px;
+
     }
-}
-@media screen and (max-width: 656px) {
-        .wrapper-activities .big-card {
-            width: 429px;
-            height: 210px;
-        }
-        .wrapper-activities .big-card .wrapper-activities-img{
-            width: 429px;
-            height: 210px;
-        }
-        .container-small-cards{
-            width: 85%;
-        }
-        .container-medium-cards {
-            width: 85%;
-        }
-}
-@media screen and (max-width: 414px) {
-        .wrapper-nav .sign-up{
-            margin-right: 6px;
-            font-weight: bold;
-            padding-top: 17px;
-        }
-        section .main-paragraph h2{
-            padding-left: 14px;
-    }
-        section .main-paragraph p{
-            padding-left: 14px;
-    }
-        .wrapper-search {
-            padding: 12px 0px 0px 12px;
-    }
-        .wrapper-search .icon-search {
-            padding: 15px;
-            border-radius: 15px 0 0 15px;
-            padding-left: 20px;
-    }
-        .wrapper-search #search {
-            padding: 12px;
-    }
-        button {
-            width: 50px;
-            height: 50px;
-            border-radius: 10px;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-            margin-left: -5px;
-    }  
-        .search-button {
-           color:transparent;
-    }
-        button .magnifier{
-            color: #ffffff;
-            font-size: 18px;
-            display: inline;
-            margin-left: -56px;
-    }
-        .wrapper-filters {
-            padding-left: 0px;
-    }
-        .information{
-            padding-left: 0px;
-            margin-left: -7px;
-            padding-bottom: 20px;
-    }
-        article{
-            width: 452px;
-        }
-        .wrapper-most-popular{
-           height: auto;
-           border-radius: 0px;
-           margin-left: -12px;
-    }
-        .most-popular-title {
-           margin-left: -2px;
-    }       
-        .icon-most-popular{
-           margin-right: 30px;
-    }
-        .wrapper-most-popular .wrapper-cards{
-            align-items: flex-start;
-            margin-left: 10px;
-    }
-        .wrapper-most-popular .card {
-           width: 355px;
-           height: 154px;
-    }
-        .wrapper-most-popular .wrapper-hotel-image {
-           height: 150px;
-    } 
-        .wrapper-accommodations {
-           background-color: #ffffff;
-           height: auto;
-           padding-left: 10px;
-           margin-left: 5px;
-           margin-top:0px;
+
  }
-        .wrapper-accommodations-title{
-           margin-left: 1px;
- }
-        .wrapper-accommodations .wrapper-cards-left{
-           margin-left: -14px;
- }
-        .wrapper-accommodations .wrapper-accommodations-title h2{
-           font-size: 22px;
- }
-        .wrapper-accommodations .card .wrapper-hotel-img{
-           width: 355px;
-           height: 100px;
- }
-        .wrapper-dropdown-menu{
-           margin-left: -15px; 
-}
-        .wrapper-activities{
-           align-content: flex-start;
-           margin-top: -60px;
-           height: 1360px;
- }    
-        .activities-header h2{
-           margin-left: -54px;
- }
-        .wrapper-activities .big-card{
-           width: 355px;
-           height: 190px;  
-           margin-left: -49px;
-           order: 0;
- }
-        .wrapper-activities .big-card .wrapper-activities-img{
-            width: 355px;
-            height: 190px;   
- }
-        .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img{
-            height: 150%; 
- } 
-        .container-small-cards{
-           flex-direction: column;
-           height: 405px;
-           order:0;
-           align-items: center;
-           margin-left: -62px;
- }
-        .wrapper-activities .small-card{
-            height: 190px;
-            width: 355px;
-}
-        .wrapper-activities .small-card .wrapper-activities-img-pomegues{
-            width: 355px;
-            height: 190px;
-        }
-        .wrapper-activities .small-card .wrapper-activities-img-pomegues .activity-medium-img-pomegues{
-            width: 370px;
-            height: 310px;
-        }
-        .wrapper-activities .xsmall-card{
-            height: 195px;
-            width: 355px;
-        }
-        .wrapper-activities .xsmall-card .wrapper-activities-img-frioul{
-            width: 355px;
-        }
-        .container-medium-cards{
-           flex-direction: column;
-           height: 385px;
-           order:0;
-           align-items: center;
-           margin-left: -62px;
- }
-        .wrapper-activities .medium-card{
-            height: 180px;
-            width: 355px;
-        }
-        .wrapper-activities .medium-card .wrapper-activities-img-notre{
-            width: 355px;
-        }
-        .wrapper-activities .medium-card .wrapper-activities-img-longchamp{
-            width: 355px;
-            height: 279px;
-        } 
-        .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp{
-            height: 199px;
-        }
-        footer {
-           flex-direction: column;
-           height: 550px;
-           padding-left: 10px;
-           width: 122%;
-           align-content: flex-start;
-           margin-left: -20px;
- }
-     }
-     */
- @media screen and (max-width: 958px) {
+ @media screen and (max-width: 983px) {
     .wrapper-filters {
         display: flex;
         align-items: center;
@@ -1319,7 +794,9 @@ footer .wrapper-footer ul li a:hover{
         flex-direction: column;
         width: 203px;
         height: 280px;
-        overflow: hidden;}
+        overflow: hidden;
+        padding: 1px;
+    }
 
     .wrapper-most-popular .wrapper-hotel-image {
         padding-left: 0px;
@@ -1335,6 +812,12 @@ footer .wrapper-footer ul li a:hover{
         width: 73%;
         margin-left: 5px;
     }
+    .wrapper-activities{
+        justify-content: space-between;
+        margin-left: 33px;
+        width: 92.5%;
+        margin-right: 31px;
+    }
     .wrapper-activities .big-card {
         margin-bottom: 20px; 
     }
@@ -1343,10 +826,13 @@ footer .wrapper-footer ul li a:hover{
         justify-content: space-around;
     }
     .container-medium-cards {
-        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 291px;
+        margin-top: -10px;
     }
  }
- @media screen and (max-width: 630px)   {
+ @media screen and (max-width: 683px)   {
     .wrapper-nav{
         width: 100%;
         height: 164px;
@@ -1538,6 +1024,7 @@ article{
 .wrapper-most-popular .wrapper-hotel-image {
     border-top-right-radius: 1px;
     border-bottom-left-radius: 20px;
+    width: 100%;
 }
 .wrapper-most-popular .hotel-img {
     border-top-right-radius: 1px;
@@ -1615,6 +1102,10 @@ article{
 }
 .wrapper-activities .xsmall-card .wrapper-activities-img-frioul .activity-medium-img-frioul{
     width: 100%;
+}
+.container-medium-cards {
+    width: 359px;
+    margin-top: 1px;
 }
 .wrapper-activities .medium-card{
     width: 321px; 
