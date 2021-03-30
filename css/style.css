@@ -3,8 +3,6 @@ body {
     padding: 0 !important;
     overflow-x: hidden;
 }
-
-
 header {
     display: flex;
     flex-direction: row;
