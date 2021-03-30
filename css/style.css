@@ -1,3 +1,8 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 
 header {
     display: flex;
@@ -84,12 +89,11 @@ section .main-paragraph p {
     border-radius: 20px 0 0 20px;
 }
 .wrapper-search #search {
-    padding: 19px;
-    border-color: #f4f4f4;
-    border-style: double; 
+    border: 2px solid #f3f2f2 !important;
     font-family: Raleway;   
     font-weight: bold;
     font-size: large;
+    padding: 15px;
 }
 button {
     width: 92px;
