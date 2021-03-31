@@ -683,7 +683,6 @@ footer .wrapper-footer ul li a:hover{
         margin-top: 32px;
 
     }
-
  }
  @media screen and (max-width: 983px) {
     .wrapper-filters {
@@ -878,12 +877,14 @@ footer .wrapper-footer ul li a:hover{
         padding: 12px 0px 0px 12px;
 }
     .wrapper-search .icon-search {
-        padding: 15px;
+        padding: 13px;
         border-radius: 15px 0 0 15px;
         padding-left: 20px;
 }
     .wrapper-search #search {
-        padding: 13px;
+        padding: 12px;
+        width: 89%;
+        font-weight: lighter;
 }
     button {
         width: 50px;
@@ -891,7 +892,7 @@ footer .wrapper-footer ul li a:hover{
         border-radius: 10px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        margin-left: -5px;
+        margin-left: -33px;
 }  
     .search-button {
        color:transparent;
@@ -1049,7 +1050,7 @@ article{
     margin-left: 8px;
 }
 .wrapper-accommodations .wrapper-cards-left {
-    margin-left: -2px;
+    margin-left: 8px;
 }
 .wrapper-accommodations .card .wrapper-hotel-img{
     width: 311px;
@@ -1085,7 +1086,8 @@ article{
     height: 123%;
 }
 .container-small-cards {
-    width: 97%;
+    width: 46%;
+    align-items: center;
 }
 .wrapper-activities .small-card {
     width: 321px;
@@ -1110,9 +1112,10 @@ article{
     width: 100%;
 }
 .container-medium-cards {
-    width: 97%;
     margin-top: 1px;
-}
+    width: 46%;
+    align-items: center;
+}    
 .wrapper-activities .medium-card{
     width: 321px; 
     margin-right: 38px;
