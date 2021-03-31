@@ -1053,7 +1053,7 @@ article{
     margin-left: 8px;
 }
 .wrapper-accommodations .card .wrapper-hotel-img{
-    width: 311px;
+    width: 290px;
 }
 .wrapper-activities{
     justify-content: space-between;
@@ -1073,13 +1073,13 @@ article{
     justify-content: center;
 }
 .wrapper-activities .big-card {
-    width: 321px;
+    width: 300px;
     margin-right: 37px;
     height: 195px;
     margin-bottom: 20px;
 }
 .wrapper-activities .big-card .wrapper-activities-img{
-    width: 321px;
+    width: 300px;
 }
 .wrapper-activities .big-card .wrapper-activities-img .Activity-big-img {
     width:100%;
@@ -1090,23 +1090,23 @@ article{
     align-items: center;
 }
 .wrapper-activities .small-card {
-    width: 321px;
+    width: 300px;
     margin-right: 38px;
     height: 195px;
     margin-bottom: 20px;
 }
 .wrapper-activities .small-card .wrapper-activities-img-pomegues{
-    width: 321px;
+    width: 300px;
     height: 195px;
 }
 .wrapper-activities .xsmall-card{
-    width: 321px;
+    width: 300px;
     margin-right: 38px; 
     height:195px; 
     margin-bottom: 20px;
 }
 .wrapper-activities .xsmall-card .wrapper-activities-img-frioul {
-    width: 321px;  
+    width: 300px;  
 }
 .wrapper-activities .xsmall-card .wrapper-activities-img-frioul .activity-medium-img-frioul{
     width: 100%;
@@ -1117,18 +1117,18 @@ article{
     align-items: center;
 }    
 .wrapper-activities .medium-card{
-    width: 321px; 
+    width: 300px; 
     margin-right: 38px;
     margin-bottom: 20px;
 }
 .wrapper-activities .medium-card .wrapper-activities-img-notre {
-    width: 321px;
+    width: 300px;
 }
 .wrapper-activities .medium-card .wrapper-activities-img-notre .activity-medium-img-notre {
     width: 100%;
 }
 .wrapper-activities .medium-card .wrapper-activities-img-longchamp {
-    width: 321px;
+    width: 300px;
 }
 .wrapper-activities .medium-card .wrapper-activities-img-longchamp .activity-medium-img-longchamp{
     width: 100%
