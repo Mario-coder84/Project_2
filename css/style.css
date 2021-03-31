@@ -1009,33 +1009,44 @@ article{
     margin-left: 0px;
     margin-bottom: 20px;
     background-color: #f4f4f4;
+    border-radius: 0px;
+}
+.wrapper-most-popular .wrapper-mini-header {
+    justify-content: space-around;
+    width: 100%;
 }
 .most-popular-title{
-    margin-left: -18px;
+    margin-left: -30px;
+}
+.most-popular-title h2 {
+    margin-left: 0;
 }
 .icon-most-popular {
-    margin-right: -4px;
+    margin-right: -37px;
     flex-direction: column;
 }
 .wrapper-most-popular .wrapper-cards {
     flex-direction: column;
 }
 .wrapper-most-popular .card{
-    width: 308px;
+    width: 290px;
     flex-direction: row;
-    height: 124px;
+    height: 129px;
+    margin-left: 9px;
 }
 .wrapper-most-popular .wrapper-hotel-image {
     border-top-right-radius: 1px;
     border-bottom-left-radius: 20px;
     width: 100%;
+    padding: 2px;
+    border-bottom-left-radius: 20px;
 }
 .wrapper-most-popular .hotel-img {
     border-top-right-radius: 1px;
-    width: 83%;
+    width: 100%;
 }
 .wrapper-most-popular .wrapper-hotel-info {
-    margin-left: -30px;
+    margin-left: -60px;
     width: 100%;
 }
 .wrapper-accommodations {
@@ -1046,14 +1057,17 @@ article{
 }
 .wrapper-accommodations-title {
     padding: 20px 0px 0px 8px;
-    font-size: 0.9em;
-    margin-left: 8px;
+    font-size: 13px;
+    margin-left: 31px;
 }
 .wrapper-accommodations .wrapper-cards-left {
     margin-left: 8px;
 }
 .wrapper-accommodations .card .wrapper-hotel-img{
     width: 290px;
+}
+.wrapper-dropdown-menu {
+    padding-left: 40px;
 }
 .wrapper-activities{
     justify-content: space-between;
@@ -1062,7 +1076,7 @@ article{
 }
 .activities-header {
     height: 7%;
-    margin-left: -37px;
+    font-size: 15px;
 }
 .activities-header h2 {
     padding-top: 3px;
