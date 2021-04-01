@@ -1,7 +1,13 @@
+/*
 body {
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden;
+}
+*/
+.big-container {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 header {
     display: flex;
@@ -1102,6 +1108,7 @@ article{
 .container-small-cards {
     width: 46%;
     align-items: center;
+    margin-bottom: 0px;
 }
 .wrapper-activities .small-card {
     width: 300px;
