@@ -1,10 +1,4 @@
-/*
-body {
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden;
-}
-*/
+
 .big-container {
     max-width: 1500px;
     margin: 0 auto;
@@ -97,8 +91,8 @@ section .main-paragraph p {
     border: 2px solid #f3f2f2 !important;
     font-family: Raleway;   
     font-weight: bold;
-    font-size: large;
-    padding: 15px;
+    font-size: 100%;
+    padding: 20px;
 }
 button {
     width: 92px;
@@ -883,14 +877,15 @@ footer .wrapper-footer ul li a:hover{
         padding: 12px 0px 0px 12px;
 }
     .wrapper-search .icon-search {
-        padding: 13px;
+        padding: 15px;
         border-radius: 15px 0 0 15px;
         padding-left: 20px;
 }
     .wrapper-search #search {
-        padding: 12px;
+        padding: 14px;
         width: 89%;
         font-weight: lighter;
+        margin-left: -10px;     
 }
     button {
         width: 50px;
