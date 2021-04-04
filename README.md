@@ -15,3 +15,4 @@ the Accommodations and Activities links are anchors that should lead to sections
 Below is the link to web page hosted online
 
 https://mario-coder84.github.io/Reservia/
+
