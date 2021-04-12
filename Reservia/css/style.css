@@ -66,7 +66,7 @@ section {
 }
 section .main-paragraph h2 {
     font-family: Raleway;
-    color: #000000;
+    color: black;
     padding-left: 30px;
 }
 section .main-paragraph p {
